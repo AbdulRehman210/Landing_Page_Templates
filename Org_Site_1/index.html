@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="./output.css">
+    <title>Planta</title>
+</head>
+
+<style>
+    #check:checked ~ ul{
+        left: 0;
+    }
+
+
+
+    #slider{
+        
+        background-image: url(./images/nature1.avif);
+        animation: change 25s linear infinite;
+    }
+
+    @keyframes change{
+        0%{
+            background-image: url(./images/nature1.avif);
+        }
+
+        25%{
+            background-image: url(./images/nature2.jpg);
+        }
+
+        50%{
+            background-image: url(./images/nature3.jpeg);
+        }
+
+        75%{
+            background-image: url(./images/nature5.jpg);
+        }
+
+        100%{
+            background-image: url(./images/nature1.avif);
+        }
+
+
+
+        
+    }
+
+
+
+</style>
+
+
+
+<body class=" m-0 p-0 box-border bg-green-900 text-green-100 z-10 " >
+
+       <nav class=" bg-green-900 h-28 w-full " >
+        <input type="checkbox" id="check" class="hidden">
+        <label for="check" class="text-green-100 text-4xl float-right inline-block mr-5 mt-8 lg:hidden">
+            <i  class="fas fa-bars"  ></i>
+          </label>
+          <label for="" class="text-green-100 text-4xl font-extrabold inline-block mt-8 ml-10     lg:text-5xl">Planta</label>
+          <ul class="text-green-100 float-right z-50 lg:flex lg:top-5 leading-[80px] top-28 space-x-1  uppercase fixed lg:relative 
+           bg-green-900 h-[100vh] lg:h-0 w-[100%] lg:w-fit left-[-100%] lg:left-0 transition-all  duration-500 text-center lg:mr-44 lg:space-x-4 xl:mr-96 xl:space-x-8 " >
+            <li><a class="font-bold text-xl lg:text-base lg:mr-5 active:shadow-lg border-2 rounded-md p-3 border-green-100 text-green-00 " href="./index.html">Home</a></li>
+            <li><a class="font-bold text-xl lg:text-base lg:mr-5 lg:hover:text-slate-100 lg:hover:underline " href="#">Legal Policy</a></li>
+            <li><a class="font-bold text-xl lg:text-base lg:mr-5 " href="#">Contact</a></li>
+            <li><a class="font-bold text-xl lg:text-base lg:mr-5 " href="#">Notice</a></li>
+            <li><a class="font-bold text-xl lg:text-base lg:mr-5 " href="#">Privacy Policy</a></li>
+          </ul>
+     </nav>
+
+
+
+     
+        <div class=" rounded-3xl mt-10 block text-center mx-auto w-4/5 h-[400px]  md:h-[450px] lg:h-[600px] xl:h-[600] py-0 bg-cover  shadow-md " id="slider" >
+
+            <h1 class=" sticky block top-64  text-2xl md:text-3xl lg:text-5xl lg:top-80" >We Love Our Nature <br> <br> Because It Cares Us </h1>
+
+        </div>
+
+
+
+        <div class="w-full mt-10 h-auto py-5  "  >
+
+           <div class=" space-y-3 md:flex md:justify-center md:space-x-4  " >
+
+            <div class=" mx-auto md:mx-0 w-80    h-80 " >
+
+                <img  class=" block w-80 md:w-80 h-72" src="./images/nature4.jpg" alt="">
+
+            </div>
+
+            <div class="mx-auto  px-3  w-80 md:w-1/2    h-80 md:h-72 " >
+                <h2 class="text-2xl md:text-3xl my-5 " >We Love Plants</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum amet voluptates consequuntur pariatur accusantium error, illum voluptate atque voluptatum? Repellat libero fugiat exercitationem magnam ipsum nemo ipsa, voluptate consequatur? Voluptatibus!</p>
+
+            </div>
+
+           </div>
+           
+
+        </div>
+
+
+
+
+
+
+        <div class="w-full h-auto bg-green-700 mt-20 p-3 text-center ">
+
+            <h2 class=" font-bold text-3xl md:6xl my-5" > What We Do</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore molestias animi similique reiciendis soluta. Explicabo odio culpa </p>
+
+
+
+            <div class="w-full h-auto p-5 md:flex md:space-x-10  md:justify-center" >
+
+
+
+
+            <div class=" w-full md:w-2/6 h-auto justify-center  text-center  py-5 my-5 space-y-3 " >
+                <img  class="block w-80 h-80 mx-auto " src="./images/nature4.jpg" alt="">
+                <div class="w-full h-auto  mx-auto  py-1 " >
+                    <h2 class=" font-bold text-3xl md:6xl my-5" > Caring </h2>
+                    <p class="" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste deleniti veritatis temporibus nobis beatae a aperiam odio repellat rem neque fugit dolorem corrupti architecto eligendi autem saepe, minus commodi placeat?
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore soluta cum quasi libero maiores mollitia! Beatae hic vitae asperiores vel fugit, sint temporibus ex id! Fugiat minus mollitia architecto cumque.
+                    </p>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="w-full md:w-2/6 h-auto justify-center  text-center  py-5 my-5 space-y-3 " >
+                <img  class="block w-80 h-80 mx-auto " src="./images/nature5.jpg" alt="">
+                <div class="w-full h-auto  mx-auto  py-1 " >
+                    <h2 class=" font-bold text-3xl md:6xl my-5" > Maintaining </h2>
+                    <p class="" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste deleniti veritatis temporibus nobis beatae a aperiam odio repellat rem neque fugit dolorem corrupti architecto eligendi autem saepe, minus commodi placeat?
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore soluta cum quasi libero maiores mollitia! Beatae hic vitae asperiores vel fugit, sint temporibus ex id! Fugiat minus mollitia architecto cumque.
+                    </p>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="w-full md:w-2/6 h-auto justify-center  text-center py-5 my-5 space-y-3 " >
+                <img  class="block w-80 h-80 mx-auto " src="./images/nature3.jpeg" alt="">
+                <div class="w-full h-auto  mx-auto bpy-1 " >
+                    <h2 class=" font-bold text-3xl md:6xl my-5" > Sustaining</h2>
+                    <p class="" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste deleniti veritatis temporibus nobis beatae a aperiam odio repellat rem neque fugit dolorem corrupti architecto eligendi autem saepe, minus commodi placeat?
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore soluta cum quasi libero maiores mollitia! Beatae hic vitae asperiores vel fugit, sint temporibus ex id! Fugiat minus mollitia architecto cumque.
+                    </p>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        <div class="w-full h-auto bg-green-700  mt-5 p-3 text-center ">
+
+           
+
+
+
+            <div class="w-full h-auto p-5 md:flex md:space-x-10  md:justify-center" >
+
+
+
+
+            <div class=" w-full md:w-2/6 h-auto justify-center  text-center  py-5 my-5 space-y-3 " >
+                <img  class="block w-80 h-80 mx-auto " src="./images/nature4.jpg" alt="">
+                <div class="w-full h-auto  mx-auto  py-1 " >
+                    <h2 class=" font-bold text-3xl md:6xl my-5" > Protecting</h2>
+                    <p class="" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste deleniti veritatis temporibus nobis beatae a aperiam odio repellat rem neque fugit dolorem corrupti architecto eligendi autem saepe, minus commodi placeat?
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore soluta cum quasi libero maiores mollitia! Beatae hic vitae asperiores vel fugit, sint temporibus ex id! Fugiat minus mollitia architecto cumque.
+                    </p>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="w-full md:w-2/6 h-auto justify-center  text-center  py-5 my-5 space-y-3 " >
+                <img  class="block w-80 h-80 mx-auto " src="./images/nature5.jpg" alt="">
+                <div class="w-full h-auto  mx-auto  py-1 " >
+                    <h2 class=" font-bold text-3xl md:6xl my-5" > Monitoring</h2>
+                    <p class="" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste deleniti veritatis temporibus nobis beatae a aperiam odio repellat rem neque fugit dolorem corrupti architecto eligendi autem saepe, minus commodi placeat?
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore soluta cum quasi libero maiores mollitia! Beatae hic vitae asperiores vel fugit, sint temporibus ex id! Fugiat minus mollitia architecto cumque.
+                    </p>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="w-full md:w-2/6 h-auto justify-center  text-center  py-5 my-5 space-y-3 " >
+                <img  class="block w-80 h-80 mx-auto " src="./images/nature3.jpeg" alt="">
+                <div class="w-full h-auto  mx-auto py-1 " >
+                    <h2 class=" font-bold text-3xl md:6xl my-5" >Growing</h2>
+                    <p class="" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste deleniti veritatis temporibus nobis beatae a aperiam odio repellat rem neque fugit dolorem corrupti architecto eligendi autem saepe, minus commodi placeat?
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore soluta cum quasi libero maiores mollitia! Beatae hic vitae asperiores vel fugit, sint temporibus ex id! Fugiat minus mollitia architecto cumque.
+                    </p>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+        </div>
+
+
+        <footer>
+            <div class="w-full h-96 text-center justify-center object-center " >
+               <div class="mt-20" >
+                <h1 class="text-4xl" >Planta</h1>
+                <p>All rights reserved </p>
+               </div>
+
+
+            </div>
+        </footer>
+    
+
+
+
+
+
+
+
+
+
+
+
+   
+    
+</body>
+</html>
